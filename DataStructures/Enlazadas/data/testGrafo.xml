@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <test>  
+    <grafo escenario="1">
+      <vertices>
+        <usuarios text="Juan Manuel" id="10"/>
+        <usuarios text="Ana" id="20"/>
+        <usuarios text="Santiago" id="30"/>
+        <usuarios text="Rafael" id="40"/>
+        <usuarios text="Catherine" id="50"/>
+        <usuarios text="Lina" id="60"/>
+        <usuarios text="Camilo" id="70"/>
+        <usuarios text="Armando" id="80"/>
+        <usuarios text="Diego" id="90"/>
+      </vertices>
+      <arcos>
+        <conexion inicio="10" fin="20" peso="16"/>
+        <conexion inicio="10" fin="30" peso="19"/>
+        <conexion inicio="10" fin="40" peso="9"/>
+        <conexion inicio="10" fin="50" peso="6"/>
+        <conexion inicio="10" fin="60" peso="5"/>
+        <conexion inicio="10" fin="70" peso="8"/>
+        <conexion inicio="10" fin="80" peso="5"/>
+        <conexion inicio="10" fin="90" peso="6"/>
+        
+        <conexion inicio="20" fin="10" peso="6"/>
+        <conexion inicio="20" fin="30" peso="10"/>
+        <conexion inicio="20" fin="90" peso="10"/>
+        
+        <conexion inicio="30" fin="10" peso="9"/>
+        <conexion inicio="30" fin="20" peso="20"/>
+        
+        <conexion inicio="40" fin="10" peso="7"/>
+        <conexion inicio="40" fin="80" peso="8"/>
+        
+        <conexion inicio="50" fin="10" peso="11"/>
+        <conexion inicio="50" fin="20" peso="11"/>
+        <conexion inicio="50" fin="30" peso="3"/>
+        <conexion inicio="50" fin="70" peso="9"/>
+        
+        <conexion inicio="60" fin="10" peso="9"/>
+        
+        <conexion inicio="70" fin="20" peso="11"/>
+        <conexion inicio="70" fin="30" peso="15"/>
+        <conexion inicio="70" fin="50" peso="7"/>
+        <conexion inicio="70" fin="90" peso="16"/>
+                
+        <conexion inicio="80" fin="10" peso="18"/>
+        <conexion inicio="80" fin="40" peso="19"/>
+        <conexion inicio="80" fin="60" peso="6"/>
+        
+        <conexion inicio="90" fin="10" peso="14"/>
+        <conexion inicio="90" fin="20" peso="12"/>
+        <conexion inicio="90" fin="30" peso="15"/>
+        <conexion inicio="90" fin="50" peso="8"/>
+        <conexion inicio="90" fin="60" peso="17"/>
+        <conexion inicio="90" fin="70" peso="3"/>
+                
+      </arcos>
+    </grafo>
+  </test>  
