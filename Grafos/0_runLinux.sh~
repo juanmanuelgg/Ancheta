@@ -1,5 +1,0 @@
-clear
-javac Kruskal.java
-java Kruskal
-#rm salida.txt
-#java Main >> salida.txt
