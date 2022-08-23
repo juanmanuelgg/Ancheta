@@ -1,0 +1,26 @@
+---
+layout: post
+title: react
+---
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    {% include enable-global-css.html %}
+</head>
+
+<body>
+    <span id="app"></span>
+    {{ content }}
+    <script>
+        const elems = document.getElementsByClassName("btn-github");
+        elems[0].href = "https://github.com/juanmanuelgg";
+    </script>
+</body>
+
+{% include enable-react.html %}
+
+</html>
