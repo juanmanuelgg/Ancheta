@@ -36,9 +36,14 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
+<span id="app"></span>
+
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+
 <script src="https://unpkg.com/@bonapata/partes@0.2.11/dist/umd/partes.js" crossorigin></script>
+
 <script>
     const pathnames = new Map();
     pathnames.set('/javascript', 'assets/images/js.png');
