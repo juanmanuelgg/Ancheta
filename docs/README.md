@@ -1,10 +1,5 @@
 ---
 layout: react
-title:  Ancheta
-date:   2022-08-22 23:58:40 -0500
-categories: algoritmos
-tags: algoritmos
-permalink: /:title
 ---
 ## Welcome to GitHub Pages
 
