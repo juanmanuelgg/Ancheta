@@ -1,3 +1,11 @@
+---
+layout: react
+title:  Ancheta
+date:   2022-08-22 23:58:40 -0500
+categories: algoritmos
+tags: algoritmos
+permalink: /:title
+---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ranchoManuel/Ancheta/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
